@@ -1,0 +1,72 @@
+
+*{
+	box-sizing: border-box;
+	
+}
+h1{
+	text-align: center;
+}
+
+#box {
+	background-color: #b3d9ff;
+	border: 2px solid black;
+	margin: 15px;
+	float: left;
+	width: 370px;
+	height:225px;
+	position: relative;
+	
+	
+}
+#lableP{
+	border: 2px dashed green;
+	text-align:center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: white;
+	opacity: 0.3;
+	
+}
+
+
+img {
+	
+	margin:0 35px 0 35px;
+	position : absolute;
+	top:0;
+	width: 300px;
+	
+		
+}
+@media (min-width:992px ){
+	box{
+		width:30%;
+	}
+	img{
+	
+		
+	}
+	
+	
+}
+@media (min-width:768px) and (max-width:991px){
+	#box {
+		
+	}
+	img{
+		
+		height:230px;
+	}
+	
+}
+@media (max-width:767px){
+	#box {
+	
+	}
+	img{
+		
+	}
+	
+}
